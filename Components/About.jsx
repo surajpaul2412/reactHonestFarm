@@ -1,6 +1,4 @@
 import React from 'react'
-import Image from 'next/image'
-import AboutImg from '../public/static/assets/img/about.webp'
 
 export default function About() {
 	return (
@@ -9,7 +7,10 @@ export default function About() {
 		    <div className="row align-items-center">
 		      <div className="col-lg-6 col-md-12 pt-5 d-none d-md-block">
 		        <div className="about-img-discard">
-		        	<Image className="d-block mx-auto" src={AboutImg} alt="about-honest-farm" />
+		        	<picture>
+		                <source srcSet="/static/assets/img/about.webp" type="image/webp" />
+		                <img className="d-block mx-auto w-100" src="/static/assets/img/about.png" alt="about-honest-farm" />
+		            </picture>
 		        </div>
 		      </div>
 		      <div className="col-lg-6 col-md-12">

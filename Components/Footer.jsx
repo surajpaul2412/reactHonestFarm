@@ -1,7 +1,5 @@
 import React from 'react'
 import Link from 'next/link'
-import Image from 'next/image'
-import Logo from '../public/static/assets/img/logo.webp'
 
 export default class AppFooter extends React.Component {
     render() {
@@ -13,9 +11,10 @@ export default class AppFooter extends React.Component {
                   <div className="col-lg-4 mr-auto col-sm-6 col-md-6">
                     <div className="footer-widget footer-about mb-5 mb-lg-0">
                       <Link href="/">
-                        <div className="w-200px">
-                          <Image className="img-fluid mx-xs-auto" src={Logo} alt="honest-farm-logo-footer"/>
-                        </div>
+                        <picture>
+                            <source srcSet="/static/assets/img/logo.webp" type="image/webp" />
+                            <img className="img-fluid mx-xs-auto w-200px" src="/static/assets/img/logo.png" alt="honest-farm-logo-footer" />
+                        </picture>
                       </Link>
                       <p className="mt-3">
                         Every Honest Farms product is a result of direct collaboration between over a million farmers from all over the country, and DeHaat.

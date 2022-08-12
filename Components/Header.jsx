@@ -1,8 +1,6 @@
 import React from 'react'
 import Router from "next/router"
 import Link from 'next/link'
-import Image from 'next/image'
-import Logo from '../public/static/assets/img/logo.webp'
 
 export default class AppHeader extends React.Component {
     render() {
@@ -13,8 +11,11 @@ export default class AppHeader extends React.Component {
                 <nav className="navbar navbar-expand-lg border-bottom-line py-0">
                   <div className="container-fluid">
                     <Link href="/">
-                      <a className="navbar-brand" style={{ width: 180 }}>
-                        <Image className="d-block mx-auto" src={Logo} alt="honest-farm-logo"/>
+                      <a className="navbar-brand">
+                        <picture>
+                            <source srcSet="/static/assets/img/logo.webp" type="image/webp" />
+                            <img className="d-block mx-auto" src="/static/assets/img/logo.png" alt="honest-farm-logo" style={{ width: 180 }}/>
+                        </picture>
                       </a>
                     </Link>
                     {/* Toggler */}

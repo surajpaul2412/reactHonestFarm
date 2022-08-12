@@ -1,7 +1,5 @@
 import React from "react";
 import Slider from "react-slick"
-import Image from 'next/image'
-import Thumbnail from '../public/static/assets/img/thumbnail.webp'
 
 export default function Video() {
 	var settings = {
@@ -43,14 +41,20 @@ export default function Video() {
 		        <div className="col-md-6 col-12">
 		          <div className="img-wrapper">
 		            <a href="" data-toggle="modal" data-target="#video">
-		            	<Image className="inner-img w-100" src={Thumbnail} alt="honest-farm-thumbnail"/>
+		            	<picture>
+	                  <source srcSet="/static/assets/img/thumbnail.webp" type="image/webp" />
+	                  <img className="inner-img w-100" src="/static/assets/img/thumbnail.png" alt="honest-farm-thumbnail" />
+	                </picture>
 		            </a>
 		          </div>
 		        </div>
 		        <div className="col-md-6 col-12">
 		          <div className="img-wrapper">
 		            <a href="" data-toggle="modal" data-target="#video">
-		              <Image className="inner-img w-100" src={Thumbnail} alt="honest-farm-thumbnail"/>
+		              <picture>
+	                  <source srcSet="/static/assets/img/thumbnail.webp" type="image/webp" />
+	                  <img className="inner-img w-100" src="/static/assets/img/thumbnail.png" alt="honest-farm-thumbnail" />
+	                </picture>
 		            </a>
 		          </div>
 		        </div>
@@ -61,14 +65,20 @@ export default function Video() {
 			    	<a href="" data-toggle="modal" data-target="#video">
 			          <div className="element" align="center">
 			            <div className="img-wrapper">
-			            	<Image className="inner-img w-100" src={Thumbnail} alt="honest-farm-thumbnail"/>
+			            	<picture>
+		                  <source srcSet="/static/assets/img/thumbnail.webp" type="image/webp" />
+		                  <img className="inner-img w-100" src="/static/assets/img/thumbnail.png" alt="honest-farm-thumbnail" />
+		                </picture>
 			            </div>
 			          </div>
 			        </a>
 			        <a href="" data-toggle="modal" data-target="#video">
 			          <div className="element" align="center">
 			            <div className="img-wrapper">
-			              <Image className="inner-img w-100" src={Thumbnail} alt="honest-farm-thumbnail"/>
+			              <picture>
+		                  <source srcSet="/static/assets/img/thumbnail.webp" type="image/webp" />
+		                  <img className="inner-img w-100" src="/static/assets/img/thumbnail.png" alt="honest-farm-thumbnail" />
+		                </picture>
 			            </div>
 			          </div>
 			        </a>

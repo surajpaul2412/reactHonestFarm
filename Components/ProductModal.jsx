@@ -1,7 +1,5 @@
 import React from "react"
 import Link from 'next/link'
-import Image from 'next/image'
-import Logo from '../public/static/assets/img/logo.webp'
 
 export default function ProductModal() {
 	const myArray = [
@@ -38,9 +36,10 @@ export default function ProductModal() {
 				    <div className="modal-content">
 				      <div className="modal-header">
 				      	<Link href="/">
-				      		<div className="w-150px">
-				        		<Image src={Logo} alt="honest-farm-logo"/>
-				        	</div>
+			        		<picture>
+                    <source srcSet="/static/assets/img/logo.webp" type="image/webp" />
+                    <img className="w-150px" src="/static/assets/img/logo.png" alt="honest-farm-logo" />
+                  </picture>
 				        </Link>
 				        <button
 				          type="button"
