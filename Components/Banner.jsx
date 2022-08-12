@@ -11,32 +11,24 @@ export default function Banner() {
 			  {/* The slideshow */}
 			  <div className="carousel-inner">
 			    <div className="carousel-item active">
-			      <img
-			        className="pt-4 d-none d-md-block"
-			        src="/static/assets/img/banner2.webp"
-			        alt="honest-farm-banner"
-			        width="100%"
-			      />
-			      <img
-			        className="pt-3 d-block d-md-none"
-			        src="/static/assets/img/mob-banner2.webp"
-			        alt="honest-farm-banner"
-			        width="100%"
-			      />
+			    	<picture>
+	                    <source srcSet="/static/assets/img/banner2.webp" type="image/webp" />
+	                    <img className="pt-4 d-none d-md-block" src="/static/assets/img/banner2.webp" alt="honest-farm-banner" width="100%" />
+	                </picture>
+	                <picture>
+	                    <source srcSet="/static/assets/img/mob-banner2.webp" type="image/webp" />
+	                    <img className="pt-3 d-block d-md-none" src="/static/assets/img/mob-banner2.webp" alt="honest-farm-banner" width="100%" />
+	                </picture>
 			    </div>
 			    <div className="carousel-item">
-			      <img
-			        className="pt-4 d-none d-md-block"
-			        src="/static/assets/img/banner.webp"
-			        alt="honest-farm-banner"
-			        width="100%"
-			      />
-			      <img
-			        className="pt-3 d-block d-md-none"
-			        src="/static/assets/img/mob-banner.webp"
-			        alt="honest-farm-banner"
-			        width="100%"
-			      />
+			    	<picture>
+	                    <source srcSet="/static/assets/img/banner.webp" type="image/webp" />
+	                    <img className="pt-4 d-none d-md-block" src="/static/assets/img/banner.webp" alt="honest-farm-banner" width="100%" />
+	                </picture>
+	                <picture>
+	                    <source srcSet="/static/assets/img/mob-banner2.webp" type="image/webp" />
+	                    <img className="pt-3 d-block d-md-none" src="/static/assets/img/mob-banner2.webp" alt="honest-farm-banner" width="100%" />
+	                </picture>
 			    </div>
 			  </div>
 			  {/* Left and right controls */}

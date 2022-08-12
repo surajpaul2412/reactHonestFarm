@@ -27,7 +27,10 @@ export default function VideoModal() {
               data-dismiss="modal"
               aria-label="Close"
             >
-              <img src="/static/assets/img/close-button.webp" alt="close-modal" style={{ width: 35 }} />
+              <picture>
+                <source srcSet="/static/assets/img/close-button.webp" type="image/webp" />
+                <img className="close-modal" src="/static/assets/img/close-button.png" alt="modal-close" style={{ width: 35 }} />
+              </picture>
             </button>
           </div>
           <div className="modal-body p-0">

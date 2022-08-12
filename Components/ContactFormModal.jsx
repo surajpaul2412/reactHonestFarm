@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import {useState} from 'react'
-import Image from 'next/image'
 
 export default function ContactFormModal() {
   return (
@@ -28,7 +27,10 @@ export default function ContactFormModal() {
 		          data-dismiss="modal"
 		          aria-label="Close"
 		        >
-		          <img src="/static/assets/img/close-button.webp" alt="close-modal" style={{ width: 35 }} />
+		          <picture>
+                <source srcSet="/static/assets/img/close-button.webp" type="image/webp" />
+                <img src="/static/assets/img/close-button.png" alt="close-modal" style={{ width: 35 }} />
+              </picture>
 		        </button>
 		      </div>
 		      <div className="modal-body p-0">

@@ -18,7 +18,10 @@ export default function ThanksModal() {
                   <div className="card">
                     <div className="row media-px-1">
                       <div className="col-md-12 col-12">
-                        <img src="/static/assets/img/thankyou.webp" alt="modal-thankyou" width="100%" />
+                        <picture>
+                          <source srcSet="/static/assets/img/thankyou.webp" type="image/webp" />
+                          <img src="/static/assets/img/thankyou.png" alt="modal-thankyou" width="100%" />
+                        </picture>
                       </div>
                     </div>
                   </div>

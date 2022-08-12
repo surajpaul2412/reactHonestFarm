@@ -1,4 +1,6 @@
 import React from 'react'
+import Image from 'next/image'
+import certify from '../public/static/assets/img/certify.webp'
 
 export default function Certificate() {
 	return (
@@ -9,12 +11,7 @@ export default function Certificate() {
 		        <div className="row align-items-center">
 		          <div className="col-lg-5">
 		            <div className="deal-img123">
-		              <img
-		                src="/static/assets/img/certify.png"
-		                alt="honest-farm-certificate"
-		                width="90%"
-		                className="img-fluid d-block mx-auto"
-		              />
+		                <Image className="img-fluid mx-xs-auto w-90" src={certify} alt="honest-farm-certificate"/>
 		            </div>
 		          </div>
 		          <div className="col-lg-1" />

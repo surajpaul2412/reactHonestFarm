@@ -1,4 +1,7 @@
-import React from 'react';
+import React from 'react'
+import Link from 'next/link'
+import Image from 'next/image'
+import Logo from '../public/static/assets/img/logo.webp'
 
 export default class AppFooter extends React.Component {
     render() {
@@ -9,7 +12,11 @@ export default class AppFooter extends React.Component {
                 <div className="row">
                   <div className="col-lg-4 mr-auto col-sm-6 col-md-6">
                     <div className="footer-widget footer-about mb-5 mb-lg-0">
-                      <a href="/"><img src="/static/assets/img/logo.webp" alt="honest-farm-logo-footer" className="img-fluid mx-xs-auto" width="200px" /></a>
+                      <Link href="/">
+                        <div className="w-200px">
+                          <Image className="img-fluid mx-xs-auto" src={Logo} alt="honest-farm-logo-footer"/>
+                        </div>
+                      </Link>
                       <p className="mt-3">
                         Every Honest Farms product is a result of direct collaboration between over a million farmers from all over the country, and DeHaat.
                       </p>
@@ -33,8 +40,8 @@ export default class AppFooter extends React.Component {
                     <div className="footer-widget footer-contact mb-5 mb-lg-0">
                       <h5 className="widget-title">Contact Info</h5>
                       <ul className="list-unstyled">
-                        <li><a href="mailto:care@agrevolution.in"><i className="fa fa-envelope" />care@agrevolution.in</a></li>
-                        <li><a href="tel:0114118-3123"><i className="fa fa-phone" />(011)-4118-3123</a></li>
+                        <li><Link href="mailto:care@agrevolution.in"><a><i className="fa fa-envelope" />care@agrevolution.in</a></Link></li>
+                        <li><Link href="tel:0114118-3123"><a><i className="fa fa-phone" />(011)-4118-3123</a></Link></li>
                       </ul>
                     </div>
                   </div>
@@ -47,13 +54,13 @@ export default class AppFooter extends React.Component {
                   <div className="row">
                     <div className="col-lg-6">
                       <div className="copyright text-lg-left text-center">
-                        <p>All Rights Reserved by <a target="_blank" href="https://agrevolution.in/">DeHaat |</a> Agrevolution 2022</p>
+                        <p>All Rights Reserved by <Link href="https://agrevolution.in/"><a target="_blank">DeHaat |</a></Link> Agrevolution 2022</p>
                       </div>
                     </div>
                     <div className="col-lg-6">
                       <div className="footer-btm-menu text-lg-right text-center">
-                        <a target="_blank" href="https://agrevolution.in/privacy-policy">Privacy Policy</a>
-                        <a target="_blank" href="https://agrevolution.in/terms_&_condition">Term &amp; conditions</a>
+                        <Link href="https://agrevolution.in/privacy-policy"><a target="_blank">Privacy Policy</a></Link>
+                        <Link href="https://agrevolution.in/terms_&_condition"><a target="_blank">Term &amp; conditions</a></Link>
                       </div>
                     </div>
                   </div>

@@ -65,7 +65,10 @@ export default function ProductSlider() {
 						          data-toggle="modal"
 						          data-target={`#modal-fullscreen-xl${index+1}`}
 						        >
-						          <img src="/static/assets/img/plus.png" alt="honest-farm-modal" style={{ filter: "invert(1)" }} />
+						          <picture>
+				                <source srcSet="/static/assets/img/plus.webp" type="image/webp" />
+				                <img src="/static/assets/img/plus.png" alt="honest-farm-modal" style={{ filter: "invert(1)" }} />
+				              </picture>
 						        </a>
 						      </div>
 						    </div>

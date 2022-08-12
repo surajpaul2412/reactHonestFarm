@@ -10,7 +10,7 @@ body {
   line-height: 28px;
   margin: 0;
   text-align: left;
-  background-image: url('/static/assets/img/bg.png');
+  background-image: url('/static/assets/img/bg.webp');
   background-size: 100%;
   font-weight: 400;
   color: #6a7695;
@@ -29,7 +29,11 @@ a {
   /*color: #F08100 !important;*/
   text-decoration: none;
 }
-
+.w-100{width: 100% !important;}
+.w-40{width: 40% !important;}
+.w-90{width: 90% !important;}
+.w-150px{width: 150px;}
+.w-200px{width: 180px;}
 /*--------------------
  TYPOGRAPHY
 -----------------*/
@@ -2126,7 +2130,7 @@ Single Blog Page
 /*.carousel-item img{
   width:50%;
 }*/
-#usp{background-image: url('/static/assets/img/background.png');background-size: 100%;}
+#usp{background-image: url('/static/assets/img/background.webp');background-size: 100%;}
 .img-wrapper {  
   width: 100%;
   overflow: hidden; 

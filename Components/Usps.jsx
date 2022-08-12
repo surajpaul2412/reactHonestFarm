@@ -1,5 +1,9 @@
 import React from "react";
 import Slider from "react-slick"
+import Image from 'next/image'
+import Frame6 from '../public/static/assets/img/Frame-6.webp'
+import Frame7 from '../public/static/assets/img/Frame-7.webp'
+import Frame8 from '../public/static/assets/img/Frame-8.webp'
 
 export default function Usps() {
 	var settings = {
@@ -41,12 +45,9 @@ export default function Usps() {
 		    <div className="xs-center d-none d-md-block">
 		      <div className="row">
 		        <div className="col-lg-4 col-md-6 usps" align="center">
-		          <img
-		            src="/static/assets/img/Frame-6.webp"
-		            alt="honest-farm-usps"
-		            width="40%"
-		            className="d-block mx-auto"
-		          />
+		        	<div className="w-40">
+		        		<Image className="d-block mx-auto" src={Frame6} alt="honest-farm-usps"/>
+		        	</div>
 		          <h2 className="text-success pt-4">
 		            End to end
 		            <br />
@@ -54,12 +55,9 @@ export default function Usps() {
 		          </h2>
 		        </div>
 		        <div className="col-lg-4 col-md-6 usps" align="center">
-		          <img
-		            src="/static/assets/img/Frame-7.webp"
-		            alt="honest-farm-usps"
-		            width="40%"
-		            className="d-block mx-auto"
-		          />
+		          <div className="w-40">
+		        		<Image className="d-block mx-auto" src={Frame7} alt="honest-farm-usps"/>
+		        	</div>
 		          <h2 className="text-success pt-4">
 		            230+ quality
 		            <br />
@@ -67,12 +65,9 @@ export default function Usps() {
 		          </h2>
 		        </div>
 		        <div className="col-lg-4 col-md-6 usps" align="center">
-		          <img
-		            src="/static/assets/img/Frame-8.webp"
-		            alt="honest-farm-usps"
-		            width="40%"
-		            className="d-block mx-auto"
-		          />
+		        	<div className="w-40">
+		        		<Image className="d-block mx-auto" src={Frame8} alt="honest-farm-usps"/>
+		        	</div>
 		          <h2 className="text-success pt-4">
 		            100% pesticide free
 		            <br />
@@ -86,12 +81,9 @@ export default function Usps() {
 			    <Slider className="container" {...settings}>
 			    	<div className="element" align="center">
 	            <div className="col-lg-4 col-md-6 usps" align="center">
-	              <img
-	                src="/static/assets/img/Frame-6.webp"
-	                alt="honest-farm-usps"
-	                width="40%"
-	                className="d-block mx-auto"
-	              />
+	              <div className="w-40">
+			        		<Image className="d-block mx-auto" src={Frame6} alt="honest-farm-usps"/>
+			        	</div>
 	              <h2 className="text-success pt-4">
 	                End to end
 	                <br />
@@ -101,12 +93,9 @@ export default function Usps() {
 	          </div>
 	          <div className="element" align="center">
 	            <div className="col-lg-4 col-md-6 usps" align="center">
-	              <img
-	                src="/static/assets/img/Frame-7.webp"
-	                alt="honest-farm-usps"
-	                width="40%"
-	                className="d-block mx-auto"
-	              />
+	              <div className="w-40">
+			        		<Image className="d-block mx-auto" src={Frame7} alt="honest-farm-usps"/>
+			        	</div>
 	              <h2 className="text-success pt-4">
 	                End to end
 	                <br />
@@ -116,12 +105,9 @@ export default function Usps() {
 	          </div>
 	          <div className="element" align="center">
 	            <div className="col-lg-4 col-md-6 usps" align="center">
-	              <img
-	                src="/static/assets/img/Frame-8.webp"
-	                alt="honest-farm-usps"
-	                width="40%"
-	                className="d-block mx-auto"
-	              />
+	              <div className="w-40">
+			        		<Image className="d-block mx-auto" src={Frame8} alt="honest-farm-usps"/>
+			        	</div>
 	              <h2 className="text-success pt-4">
 	                100% pesticide free
 	                <br />

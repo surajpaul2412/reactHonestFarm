@@ -49,15 +49,16 @@ class MyDocument extends Document {
             <a href="#top-header" className="js-scroll-trigger scroll-to-top"><i className="fa-solid fa-angle-up"></i></a>
           </div>
 
-          <script src="/static/assets/js/jquery.js"></script>
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/js/bootstrap.bundle.js"></script>
-          <script src="/static/assets/js/waypoint.js"></script>
-          <script src="/static/assets/js/jquery.counterup.min.js"></script>
-          <script src="/static/assets/js/slick.min.js"></script>
-          <script src="/static/assets/js/owl.carousel.min.js"></script>
-          <script src="/static/assets/js/contact.js"></script>
-          <script src="/static/assets/js/script.js"></script>
-          <script src="/static/assets/js/custom.js"></script>
+          <script src="/static/assets/js/jquery.js" />
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/js/bootstrap.bundle.js" defer />
+          <script src="/static/assets/js/waypoint.js" defer />
+
+          <script src="/static/assets/js/jquery.counterup.min.js" defer />
+          <script src="/static/assets/js/slick.min.js" async />
+          <script src="/static/assets/js/owl.carousel.min.js" async />
+          <script src="/static/assets/js/contact.js" async />
+          <script src="/static/assets/js/script.js" async />
+          <script src="/static/assets/js/custom.js" async />
         </body>
       </Html>
     )
