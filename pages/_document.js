@@ -49,7 +49,7 @@ class MyDocument extends Document {
             <a href="#top-header" className="js-scroll-trigger scroll-to-top"><i className="fa-solid fa-angle-up"></i></a>
           </div>
 
-          <script src="/static/assets/js/jquery.js" />
+          <script src="/static/assets/js/jquery.js" async />
           <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/js/bootstrap.bundle.js" defer />
           <script src="/static/assets/js/waypoint.js" defer />
 

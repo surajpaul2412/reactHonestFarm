@@ -4,7 +4,7 @@ import Link from 'next/link'
 export default class AppFooter extends React.Component {
     render() {
         return (
-          <footer className="footer bg-black xs-center">
+          <footer className="footer bg-black xs-center" id="footer">
             <div className="footer-top">
               <div className="container">
                 <div className="row">

@@ -45,7 +45,7 @@ export default function VideoModal() {
                         className="yt_player_iframe"
                         width="100%"
                         height={400}
-                        src="https://www.youtube.com/embed/-87zDwbwwCQ"
+                        src="https://www.youtube.com/embed/-87zDwbwwCQ?autoplay=0"
                         title="DeHaat: Transforming the way India Farms!!"
                         frameBorder={0}
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

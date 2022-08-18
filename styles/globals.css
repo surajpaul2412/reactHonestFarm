@@ -2150,7 +2150,7 @@ Single Blog Page
 .parent {
   width: 100%;
   margin: 20px;
-  height: 60vh;
+  height: 58vh;
   overflow: hidden;
   position: relative;
   float: left;
@@ -2387,6 +2387,7 @@ Single Blog Page
   .slick-slider .element{
     margin:0px 0px;
   }
+  .media-w-50{width: 40%;font-size: 10px;margin: 0 0 !important;}
 }
 .modal-dialog-centered {
   -webkit-transform: translate(0,-50%);

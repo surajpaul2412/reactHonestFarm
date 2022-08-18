@@ -101,8 +101,8 @@ export default class AppHeader extends React.Component {
                           </div>
                         </li>
                         <li className="nav-item">
-                          <Link href="">
-                            <a data-toggle="modal" data-target="#contact" className="nav-link">
+                          <Link href="/#footer">
+                            <a className="nav-link">
                               Contact Us
                             </a>
                           </Link>
