@@ -87,10 +87,10 @@ export default class ProductSlider extends Component {
 			    </Slider>
 	        <div className="py-4" align="center">
 	          <button className="btn btn-main2 mx-3 media-w-50" onClick={this.previous}>
-	            <i class="fa-solid fa-arrow-left-long pl-0 pr-3"></i> Previous
+	            <i className="fa-solid fa-arrow-left-long pl-0 pr-3"></i> Previous
 	          </button>
 	          <button className="btn btn-main2 mx-3 media-w-50" onClick={this.next}>
-	            Next <i class="fa-solid fa-arrow-right-long"></i>
+	            Next <i className="fa-solid fa-arrow-right-long"></i>
 	          </button>
 	        </div>
 	      </div>
