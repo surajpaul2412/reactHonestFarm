@@ -53,7 +53,8 @@ export default class ProductSlider extends Component {
 			{'img':'/static/assets/img/products/HONESR-FARMS-PRODUCTS_0007_DeHaat_FOP_Unpolished_Moong_Dal_Chilka_1kg_260722.webp'},
 			{'img':'/static/assets/img/products/HONESR-FARMS-PRODUCTS_0008_DeHaat_FOP_Unpolished_Moong_Dal_1kg_260722.webp'},
 			{'img':'/static/assets/img/products/HONESR-FARMS-PRODUCTS_0009_DeHaat_FOP_Unpolished_Kala_Chana_1kg_260722.webp'},
-			{'img':'/static/assets/img/products/HONESR-FARMS-PRODUCTS_0010_DeHaat_FOP_Unpolished_Kabuli_Chana_1kg_260722.webp'}
+			{'img':'/static/assets/img/products/HONESR-FARMS-PRODUCTS_0010_DeHaat_FOP_Unpolished_Kabuli_Chana_1kg_260722.webp'},
+			{'img':'/static/assets/img/products/Dehaat-Biryani-premium-rice-Mockup.webp'}
 		];
 
     return (

@@ -70,7 +70,7 @@ export default class AppHeader extends React.Component {
                           </Link>
                         </li>
                         <li className="nav-item dropdown">
-                          <Link href="#">
+                          <Link href="/#product">
                             <a
                               className="nav-link dropdown-toggle"
                               id="navbar3"
