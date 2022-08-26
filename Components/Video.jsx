@@ -43,7 +43,7 @@ export default function Video() {
 		            <a href="" data-toggle="modal" data-target="#video">
 		            	<picture>
 	                  <source srcSet="/static/assets/img/thumbnail.webp" type="image/webp" />
-	                  <img className="inner-img w-100" src="/static/assets/img/thumbnail.png" alt="honest-farm-thumbnail" />
+	                  <img className="inner-img w-100" src="/static/assets/img/thumbnail1.png" alt="honest-farm-thumbnail" />
 	                </picture>
 		            </a>
 		          </div>
@@ -53,7 +53,7 @@ export default function Video() {
 		            <a href="" data-toggle="modal" data-target="#video">
 		              <picture>
 	                  <source srcSet="/static/assets/img/thumbnail.webp" type="image/webp" />
-	                  <img className="inner-img w-100" src="/static/assets/img/thumbnail.png" alt="honest-farm-thumbnail" />
+	                  <img className="inner-img w-100" src="/static/assets/img/thumbnail2.png" alt="honest-farm-thumbnail" />
 	                </picture>
 		            </a>
 		          </div>
@@ -67,7 +67,7 @@ export default function Video() {
 			            <div className="img-wrapper">
 			            	<picture>
 		                  <source srcSet="/static/assets/img/thumbnail.webp" type="image/webp" />
-		                  <img className="inner-img w-100" src="/static/assets/img/thumbnail.png" alt="honest-farm-thumbnail" />
+		                  <img className="inner-img w-100" src="/static/assets/img/thumbnail1.png" alt="honest-farm-thumbnail" />
 		                </picture>
 			            </div>
 			          </div>
@@ -77,7 +77,7 @@ export default function Video() {
 			            <div className="img-wrapper">
 			              <picture>
 		                  <source srcSet="/static/assets/img/thumbnail.webp" type="image/webp" />
-		                  <img className="inner-img w-100" src="/static/assets/img/thumbnail.png" alt="honest-farm-thumbnail" />
+		                  <img className="inner-img w-100" src="/static/assets/img/thumbnail2.png" alt="honest-farm-thumbnail" />
 		                </picture>
 			            </div>
 			          </div>
