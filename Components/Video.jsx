@@ -42,7 +42,7 @@ export default function Video() {
 		          <div className="img-wrapper">
 		            <a href="" data-toggle="modal" data-target="#video">
 		            	<picture>
-	                  <source srcSet="/static/assets/img/thumbnail.webp" type="image/webp" />
+	                  <source srcSet="/static/assets/img/thumbnail1.webp" type="image/webp" />
 	                  <img className="inner-img w-100" src="/static/assets/img/thumbnail1.png" alt="honest-farm-thumbnail" />
 	                </picture>
 		            </a>
@@ -52,7 +52,7 @@ export default function Video() {
 		          <div className="img-wrapper">
 		            <a href="" data-toggle="modal" data-target="#video">
 		              <picture>
-	                  <source srcSet="/static/assets/img/thumbnail.webp" type="image/webp" />
+	                  <source srcSet="/static/assets/img/thumbnail2.webp" type="image/webp" />
 	                  <img className="inner-img w-100" src="/static/assets/img/thumbnail2.png" alt="honest-farm-thumbnail" />
 	                </picture>
 		            </a>
@@ -66,7 +66,7 @@ export default function Video() {
 			          <div className="element" align="center">
 			            <div className="img-wrapper">
 			            	<picture>
-		                  <source srcSet="/static/assets/img/thumbnail.webp" type="image/webp" />
+		                  <source srcSet="/static/assets/img/thumbnail1.webp" type="image/webp" />
 		                  <img className="inner-img w-100" src="/static/assets/img/thumbnail1.png" alt="honest-farm-thumbnail" />
 		                </picture>
 			            </div>
@@ -76,7 +76,7 @@ export default function Video() {
 			          <div className="element" align="center">
 			            <div className="img-wrapper">
 			              <picture>
-		                  <source srcSet="/static/assets/img/thumbnail.webp" type="image/webp" />
+		                  <source srcSet="/static/assets/img/thumbnail2.webp" type="image/webp" />
 		                  <img className="inner-img w-100" src="/static/assets/img/thumbnail2.png" alt="honest-farm-thumbnail" />
 		                </picture>
 			            </div>
