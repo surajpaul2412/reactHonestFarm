@@ -50,7 +50,7 @@ export default function Video() {
 		        </div>
 		        <div className="col-md-6 col-12">
 		          <div className="img-wrapper">
-		            <a href="" data-toggle="modal" data-target="#video">
+		            <a href="" data-toggle="modal" data-target="#video2">
 		              <picture>
 	                  <source srcSet="/static/assets/img/thumbnail2.webp" type="image/webp" />
 	                  <img className="inner-img w-100" src="/static/assets/img/thumbnail2.png" alt="honest-farm-thumbnail" />
@@ -72,7 +72,7 @@ export default function Video() {
 			            </div>
 			          </div>
 			        </a>
-			        <a href="" data-toggle="modal" data-target="#video">
+			        <a href="" data-toggle="modal" data-target="#video2">
 			          <div className="element" align="center">
 			            <div className="img-wrapper">
 			              <picture>

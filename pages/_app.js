@@ -3,6 +3,7 @@ import React from 'react'
 import Head from 'next/head'
 import Script from "next/script"
 import VideoModal from '../Components/VideoModal'
+import VideoModal2 from '../Components/VideoModal2'
 import ThanksModal from '../Components/ThanksModal'
 import ContactFormModal from '../Components/ContactFormModal'
 import ProductModal from '../Components/ProductModal'
@@ -19,6 +20,7 @@ function MyApp({ Component, pageProps }) {
       <Component {...pageProps} />
 
       <VideoModal />
+      <VideoModal2 />
       <ThanksModal />
       <ContactFormModal />
       <ProductModal/>
